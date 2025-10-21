@@ -1,0 +1,29 @@
+Package: nil-gate-dev
+Version: 1.5.3
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 1048
+Depends: nil-xalt-dev (>= 1.3.1)
+Filename: ./nil-gate-dev-1.5.3-Linux.deb
+Size: 686104
+MD5sum: 02df3b62f88399e27e77563597a22166
+SHA1: 0340eab90c9d700a57a06af6416447c194e25262
+SHA256: 412b16de03ed29dd62a902db4c1640266ffea942414039e6380bdd335a899bbb
+Section: devel
+Priority: optional
+Description: Tiny, header‑only, change‑driven DAG library (C++20) with C-API
+
+Package: nil-xalt-dev
+Version: 1.3.1
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 59
+Filename: ./nil-xalt-dev-1.3.1-Linux.deb
+Size: 8920
+MD5sum: 7c9a58c5731d5cc6dde679871782bb7c
+SHA1: 94b63cbc3b35acf84aa2959031d45ac8a1937b6d
+SHA256: adb5b55b32e730899cda2ecc3ece8e43d201e831d3a454bbdbc00a2c48b03eee
+Section: devel
+Priority: optional
+Description: collection of utility functionalities
+

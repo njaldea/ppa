@@ -1,0 +1,28 @@
+Origin: Neil Aldea
+Label: neil
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: nil packages
+Date: Thu, 23 Oct 2025 14:39:23 +0000
+MD5Sum:
+ 8608734fd24371766b14ff437ca9dd40              903 Packages
+ a8ef93e1fb1a07d99aab9bf8a4e0d4e8              540 Packages.gz
+ f01711704538a4e0b90d8b412aa1f62d              164 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 Translation-en
+SHA1:
+ 3595fcc81f041b6f255fb0effcc25572e6941c6f              903 Packages
+ 292a272411b63c3b2f2e91c99b24a010f31356d1              540 Packages.gz
+ 82bdeea1ee0552d9de65230036508c156f3aec28              164 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Translation-en
+SHA256:
+ 56528063628d8dee54dd1d6fb65908e6650ba54971f0162e103002f6225938de              903 Packages
+ 004ee98f15af4e8726af853634329284f1f266a7f5c606fa203764b28c59363e              540 Packages.gz
+ e9e89469784046aca0fd1b0c4b22af7a58f13390a65af03d8fad3aadb97a8ef6              164 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Translation-en
+SHA512:
+ 7321e353dd3c4316a0e5d8232d3656d2b20054a3e5dd6ab15de9bcc8a2f4058439e9f1548a4d0fcaa76ba2157c57bad3ae6fe041e2763347b7f2d05d2cb433ca              903 Packages
+ a14d21196215e1cd83fb0704d46d4ea7f6d99e2e5117e86219e9f936df2db34545b6b20661b149b549843ad1234cf229292f8a095fac2bf8c85c677bf25a9380              540 Packages.gz
+ ccfc13920d2fbb8b662933e531ed580cc6dd15257978d2c8521915d3417cc72ece4dbd128bf3ab2508c571b53f709d8358b87f8a1c04e645f567515dc4c9a924              164 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Translation-en
