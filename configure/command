@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+if [[ $0 != $BASH_SOURCE ]]; then
+    echo "do not source this script"
+    return 1
+fi
+
+SCRIPT_PATH=`(dirname $BASH_SOURCE)`
+REPO_PATH=`(realpath $SCRIPT_PATH/..)`
+
+CMAKE_BUILD_TYPE="Release"
+GENERATOR="Ninja"
+
+HELP()
+{
+    echo "[-h|d]"
+    echo "options:"
+    echo "h         Print this help"
+    echo "d         Configure Debug Build (default: Release)"
+}
+
+while getopts ":hdtsc" option; do
+    case $option in
+        h)
+            HELP
+            exit 0;;
+        d)
+            CMAKE_BUILD_TYPE="Debug";;
+        \?)
+            echo "unknown option is provided: ${option}"
+            HELP
+            exit 1;;
+    esac
+done
+
+export VCPKG_BINARY_SOURCES="default"
+export CMAKE_BUILD_PARALLEL_LEVEL=8
+
+cmake                                                                       \
+    -B "${REPO_PATH}/.build"                                                \
+    -DCMAKE_INSTALL_PREFIX="${REPO_PATH}/.build/out"                        \
+    -DCMAKE_BUILD_TYPE="${CMAKE_BUILD_TYPE}"                                \
+    -G "${GENERATOR}"
