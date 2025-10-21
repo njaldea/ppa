@@ -1,0 +1,19 @@
+rm Packages
+rm Packages.gz
+rm Release
+
+dpkg-scanpackages . /dev/null > Packages
+gzip -k Packages
+
+{
+cat <<EOF
+Origin: Neil Aldea
+Label: neil
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: nil packages
+EOF
+apt-ftparchive release .
+} > Release
