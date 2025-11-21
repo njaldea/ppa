@@ -2,7 +2,7 @@ rm Packages
 rm Packages.gz
 rm Release
 
-dpkg-scanpackages . /dev/null > Packages
+dpkg-scanpackages --multiversion . /dev/null > Packages
 gzip -k Packages
 
 {

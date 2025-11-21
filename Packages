@@ -12,6 +12,20 @@ Section: devel
 Priority: optional
 Description: Opinionated argument parser
 
+Package: nil-clix-dev
+Version: 1.0.2
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 869
+Filename: ./nil-clix-dev-1.0.2-Linux.deb
+Size: 282556
+MD5sum: e8b8e358a4f2aca8c02c7bf27ed42a5c
+SHA1: 3ed371bb70465b578afc6633ace62736d6ea12b4
+SHA256: 82a34d0baf3059f8464540b4d19d4368e6f16f5f463f65093e22d35056caa5bd
+Section: devel
+Priority: optional
+Description: Opinionated argument parser
+
 Package: nil-gate-dev
 Version: 1.5.3
 Architecture: amd64
@@ -23,6 +37,21 @@ Size: 686106
 MD5sum: e482ef48f5a36aba10662c5d8e0d5a1a
 SHA1: b70b74cef4d6cdfe4ba65d1d9aaa053a3f6c16aa
 SHA256: d9f6abcf17a15abc7bbb589c9b1c219e353300e26f91e719d13a23d58b777475
+Section: devel
+Priority: optional
+Description: Tiny, header‑only, change‑driven DAG library (C++20) with C-API
+
+Package: nil-gate-dev
+Version: 1.5.4
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 162
+Depends: nil-xalt-dev (>= 1.3.1)
+Filename: ./nil-gate-dev-1.5.4-Linux.deb
+Size: 21110
+MD5sum: c932b9e2e6f35ab38acde75479c4bb11
+SHA1: 388a94ad52ad3c5e16fc52aa8bb636199ebad398
+SHA256: 0d8b932e534693063de06312729c00e680ca4c21af1d190ff72bdfc575b6f54f
 Section: devel
 Priority: optional
 Description: Tiny, header‑only, change‑driven DAG library (C++20) with C-API
@@ -42,6 +71,21 @@ Section: devel
 Priority: optional
 Description: boost net library wrapper
 
+Package: nil-service-dev
+Version: 1.0.4
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 31038
+Depends: nil-xalt-dev (>= 1.3.1)
+Filename: ./nil-service-dev-1.0.4-Linux.deb
+Size: 17152094
+MD5sum: afb28fe10d7acf69dff3fd4e34f4e040
+SHA1: 38cb524638ea11e57606ab725b99559aa87688d0
+SHA256: 016a9794d98212c7fd714098eb5df024684bee542cbff253d5370e3c0b2147f2
+Section: devel
+Priority: optional
+Description: boost net library wrapper
+
 Package: nil-xalt-dev
 Version: 1.3.1
 Architecture: amd64
@@ -52,6 +96,20 @@ Size: 8920
 MD5sum: 7c9a58c5731d5cc6dde679871782bb7c
 SHA1: 94b63cbc3b35acf84aa2959031d45ac8a1937b6d
 SHA256: adb5b55b32e730899cda2ecc3ece8e43d201e831d3a454bbdbc00a2c48b03eee
+Section: devel
+Priority: optional
+Description: collection of utility functionalities
+
+Package: nil-xalt-dev
+Version: 1.4.0
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 66
+Filename: ./nil-xalt-dev-1.4.0-Linux.deb
+Size: 9378
+MD5sum: bce89c77f9be56cefd4b79ab4925cd58
+SHA1: 44fa0b5d9e4924665fc2ac97a3ff76b1119a295d
+SHA256: a4988d5d0b80e7101c153d748140fad3eb65292b7e10a68de50db67d4a272fca
 Section: devel
 Priority: optional
 Description: collection of utility functionalities
@@ -71,6 +129,21 @@ Section: devel
 Priority: optional
 Description: C++ bridge to frontend
 
+Package: nil-xit-dev
+Version: 0.3.4
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 3994
+Depends: nil-service-dev (>= 1.0.3)
+Filename: ./nil-xit-dev-0.3.4-Linux.deb
+Size: 2537402
+MD5sum: b87d63d8b4a2ee8cf1c2adcccf8a646a
+SHA1: 4ed875db15cf657687a88a13ad2dcf72223f8063
+SHA256: 769923ca6094659962d660ac2cd65761fc21d76391f42e85c806fd2bc305b10c
+Section: devel
+Priority: optional
+Description: C++ bridge to frontend
+
 Package: nil-xit-test-dev
 Version: 0.0.11
 Architecture: amd64
@@ -82,6 +155,21 @@ Size: 1553660
 MD5sum: d2f7a6e08613371ec769041b79ebfa70
 SHA1: 13acf2c510204c1e87e16ddfdbc39d739ba0826c
 SHA256: bb6158dde1537898c73d0d0fe7b8699b071e23a2a78f67caf0a91149b4ee8347
+Section: devel
+Priority: optional
+Description: Test layer to nil-xit
+
+Package: nil-xit-test-dev
+Version: 0.0.12
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 2365
+Depends: nil-clix-dev (>= 1.0.1), nil-xit-dev (>= 0.3.3), nil-gate-dev (>= 1.5.3), libgtest-dev (>=1.11.0)
+Filename: ./nil-xit-test-dev-0.0.12-Linux.deb
+Size: 1553730
+MD5sum: 7bf655d88bc67e176c850082c439d6a3
+SHA1: 3e361a21191d54a3013cd014a244b96b6320e632
+SHA256: 1d38823115a60a07b67c544169f9e2638782c81807d237409115e77977057c59
 Section: devel
 Priority: optional
 Description: Test layer to nil-xit
