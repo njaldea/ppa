@@ -5,24 +5,24 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: nil packages
-Date: Sat, 22 Nov 2025 08:00:42 +0000
+Date: Tue, 02 Dec 2025 14:06:15 +0000
 MD5Sum:
- 18d2821dc9c2b566e97f6e8ac50b8a32             5462 Packages
- 40dd206db815ee93d21c216ac24ef647             1795 Packages.gz
- 8e4ddd87877bb565a27cd6a81773411b              164 Release
+ 094afaad19137ee1e9198945c6dde0a2             4044 Packages
+ db9d2bca4a65d923e44a4c9bebd1463c             1460 Packages.gz
+ 2e9c756ade1374cd1995c922e96d5880              164 Release
  d41d8cd98f00b204e9800998ecf8427e                0 Translation-en
 SHA1:
- 9f8b4d47e1b04aa86a6e222990ef33ac30d052c2             5462 Packages
- a8cab60b9ac001deb1901bf646dd95098f6dd091             1795 Packages.gz
- 1f9cfe1a7cd6cd9829de316861f8fcd5aafb3a54              164 Release
+ 6ec3152ddf8912be1f9a0435d1bf7559d05db80f             4044 Packages
+ f6bbdd07d3d121ab41bbead69ba7ed2d1cf4c1c7             1460 Packages.gz
+ cc3d0551a747741200f67e65fc0e789227cc92ec              164 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Translation-en
 SHA256:
- be7e20b6c4e0343e4a65207e746c0acc61442b8b639d01216326347419021c0e             5462 Packages
- 7ddcc0924c780dcc1abfc73fe6914a55b955c0e638519e4194db1ffb775d19fc             1795 Packages.gz
- f43be8ee4bf584ce1c9918e03328938bfc276aadbf732159d6f19e7e5e641793              164 Release
+ 514b96bd4ffce117f08a3c94a19f99772258ed8900ded747fca620556164bbbe             4044 Packages
+ 820bcafcef62cd79ab6c5fffd9fb807429415b2deee4149ebd6952e26d43da59             1460 Packages.gz
+ 7440f7d0c66f328cc2c289ca1d34ecba9f81091d01636b3cf912eec39b47ca67              164 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Translation-en
 SHA512:
- 09e25cec00104148789b95408dac3bed4ff9af52ac1765f315a3ebfed17375132c9835b004f5f134c4f187217c8e4ec83d7399b517cadb3e51a875e8749e1a26             5462 Packages
- 4ff27aaef5e65facf6b3fdd1487caa30c7f9838cec1ad73d99a5a57d64ea77231cb2237b7ddc9db7b8b8eda4d969dd64f9846eae0a9242ece34bc196c449b523             1795 Packages.gz
- 03efaa77f8b3bbab51cbd34b663589b9850de66e3b4233ae85da43fd69e4cd9189d414d6508e697fa376a6be4ec966421883a6f74dea44ccef16e87abe66fad3              164 Release
+ c30b242765924a08a9c1296dd2dd8b2fc42cab343cf49580bb6f50126f035e49096f43a3a6992fe80e5dd160c42bd0cc9b3163360a2403407a91851f526146dd             4044 Packages
+ ca34df806479adba36cc6b676bc958993dbe7f143450e3ce3ae73586cd183cb916245269e671418a51613160fe091edc4ab69c4cb98048ae5ffeda56b1f2c665             1460 Packages.gz
+ 393ceecec279dc2495c6e9a3dc25999ec193c36cd71fa3c3b6c158fa5be242d2978fbfbfbbdcd3a8c6069553cd50ee48fb4678340010a9b17c86a4fa602209f8              164 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Translation-en

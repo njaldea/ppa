@@ -57,31 +57,16 @@ Priority: optional
 Description: Tiny, header‑only, change‑driven DAG library (C++20) with C-API
 
 Package: nil-service-dev
-Version: 1.0.3
+Version: 1.0.5
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 31030
+Installed-Size: 30776
 Depends: nil-xalt-dev (>= 1.3.1)
-Filename: ./nil-service-dev-1.0.3-Linux.deb
-Size: 17152086
-MD5sum: 1cea5193db784b0d2b609f0fa680d9b8
-SHA1: 857a304c60a7599679935b6e24eb27f69aed95b2
-SHA256: 52d7854c87534f1954ee4737879fcb7a76b483d5f74356c9eedab4f6e02b85a7
-Section: devel
-Priority: optional
-Description: boost net library wrapper
-
-Package: nil-service-dev
-Version: 1.0.4
-Architecture: amd64
-Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 31038
-Depends: nil-xalt-dev (>= 1.3.1)
-Filename: ./nil-service-dev-1.0.4-Linux.deb
-Size: 17152094
-MD5sum: afb28fe10d7acf69dff3fd4e34f4e040
-SHA1: 38cb524638ea11e57606ab725b99559aa87688d0
-SHA256: 016a9794d98212c7fd714098eb5df024684bee542cbff253d5370e3c0b2147f2
+Filename: ./nil-service-dev-1.0.5-Linux.deb
+Size: 16918002
+MD5sum: dd4ba29216799b3fbc77843b75dd8e81
+SHA1: e84dcc4ad829a79644b2ceaf8543c07d023d9cd8
+SHA256: 797547032f38c51de5e3a2bf88f044b097e7dcfe815ee9c3ab21011497d81215
 Section: devel
 Priority: optional
 Description: boost net library wrapper
@@ -115,61 +100,31 @@ Priority: optional
 Description: collection of utility functionalities
 
 Package: nil-xit-dev
-Version: 0.3.3
+Version: 0.3.5
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 3986
+Installed-Size: 3998
 Depends: nil-service-dev (>= 1.0.3)
-Filename: ./nil-xit-dev-0.3.3-Linux.deb
-Size: 2537366
-MD5sum: d5181e6aee7be6673065ba656617c9c3
-SHA1: abea97e5424e1c6197cade2b3b0327ae37b76ddf
-SHA256: 1a305cb2cf746714a2d4aabfcad5f22541b0d70feec7582f38abd196c1ce2ffa
-Section: devel
-Priority: optional
-Description: C++ bridge to frontend
-
-Package: nil-xit-dev
-Version: 0.3.4
-Architecture: amd64
-Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 3994
-Depends: nil-service-dev (>= 1.0.3)
-Filename: ./nil-xit-dev-0.3.4-Linux.deb
-Size: 2537402
-MD5sum: b87d63d8b4a2ee8cf1c2adcccf8a646a
-SHA1: 4ed875db15cf657687a88a13ad2dcf72223f8063
-SHA256: 769923ca6094659962d660ac2cd65761fc21d76391f42e85c806fd2bc305b10c
+Filename: ./nil-xit-dev-0.3.5-Linux.deb
+Size: 2541068
+MD5sum: d7ede0bc9896dfb69c1b458ca25f810b
+SHA1: bed2d6d15a31bb04cadb7aa599d68d98ae204d4e
+SHA256: 10c9ca4ccb280df4bb6f48bd79261c8e26b6c9a16119131177f635a5efd32d79
 Section: devel
 Priority: optional
 Description: C++ bridge to frontend
 
 Package: nil-xit-test-dev
-Version: 0.0.11
+Version: 0.0.13
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 2357
+Installed-Size: 2084
 Depends: nil-clix-dev (>= 1.0.1), nil-xit-dev (>= 0.3.3), nil-gate-dev (>= 1.5.3), libgtest-dev (>=1.11.0)
-Filename: ./nil-xit-test-dev-0.0.11-Linux.deb
-Size: 1553660
-MD5sum: d2f7a6e08613371ec769041b79ebfa70
-SHA1: 13acf2c510204c1e87e16ddfdbc39d739ba0826c
-SHA256: bb6158dde1537898c73d0d0fe7b8699b071e23a2a78f67caf0a91149b4ee8347
-Section: devel
-Priority: optional
-Description: Test layer to nil-xit
-
-Package: nil-xit-test-dev
-Version: 0.0.12
-Architecture: amd64
-Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 2365
-Depends: nil-clix-dev (>= 1.0.1), nil-xit-dev (>= 0.3.3), nil-gate-dev (>= 1.5.3), libgtest-dev (>=1.11.0)
-Filename: ./nil-xit-test-dev-0.0.12-Linux.deb
-Size: 1553730
-MD5sum: 7bf655d88bc67e176c850082c439d6a3
-SHA1: 3e361a21191d54a3013cd014a244b96b6320e632
-SHA256: 1d38823115a60a07b67c544169f9e2638782c81807d237409115e77977057c59
+Filename: ./nil-xit-test-dev-0.0.13-Linux.deb
+Size: 1394112
+MD5sum: 1a83e8c5c9a45b05d571801db9ace348
+SHA1: b11b7a730ecc9984f682b57818e1a0d461a75d49
+SHA256: 12f649648644411797b9a5f143e08177a766f01e6fe28d34b95f41c25f000313
 Section: devel
 Priority: optional
 Description: Test layer to nil-xit
