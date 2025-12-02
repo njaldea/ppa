@@ -5,24 +5,24 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: nil packages
-Date: Tue, 02 Dec 2025 14:06:15 +0000
+Date: Tue, 02 Dec 2025 14:47:06 +0000
 MD5Sum:
- 094afaad19137ee1e9198945c6dde0a2             4044 Packages
- db9d2bca4a65d923e44a4c9bebd1463c             1460 Packages.gz
- 2e9c756ade1374cd1995c922e96d5880              164 Release
+ 66639c1605e08ad053ebb19ab5160cd8             5099 Packages
+ 132f40bbab8d8c86719e421ccc907cbe             1583 Packages.gz
+ 9f857ec62fe7ef39ea6efaedf035f4b2              164 Release
  d41d8cd98f00b204e9800998ecf8427e                0 Translation-en
 SHA1:
- 6ec3152ddf8912be1f9a0435d1bf7559d05db80f             4044 Packages
- f6bbdd07d3d121ab41bbead69ba7ed2d1cf4c1c7             1460 Packages.gz
- cc3d0551a747741200f67e65fc0e789227cc92ec              164 Release
+ f273cd12213bdcffcd6e565980ae19ef144a1e21             5099 Packages
+ 5ef359622f38209c13048dd875a3335ef9499466             1583 Packages.gz
+ 6cca6b9978fc5f049195c3a5583fbc42b2ed4df3              164 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Translation-en
 SHA256:
- 514b96bd4ffce117f08a3c94a19f99772258ed8900ded747fca620556164bbbe             4044 Packages
- 820bcafcef62cd79ab6c5fffd9fb807429415b2deee4149ebd6952e26d43da59             1460 Packages.gz
- 7440f7d0c66f328cc2c289ca1d34ecba9f81091d01636b3cf912eec39b47ca67              164 Release
+ cefcc41f6c086c9477e2a071241f4a9190d54f0c95a5cec866501963be2afb5d             5099 Packages
+ 057003f5169251d334d51cdb835eb0b4df284db8adfcafe7446c0a3327e4f8ca             1583 Packages.gz
+ 67cd3e31c9061ae52c2b7eebb54a71282aee3fe90e656196ce68adab2b7d77ea              164 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Translation-en
 SHA512:
- c30b242765924a08a9c1296dd2dd8b2fc42cab343cf49580bb6f50126f035e49096f43a3a6992fe80e5dd160c42bd0cc9b3163360a2403407a91851f526146dd             4044 Packages
- ca34df806479adba36cc6b676bc958993dbe7f143450e3ce3ae73586cd183cb916245269e671418a51613160fe091edc4ab69c4cb98048ae5ffeda56b1f2c665             1460 Packages.gz
- 393ceecec279dc2495c6e9a3dc25999ec193c36cd71fa3c3b6c158fa5be242d2978fbfbfbbdcd3a8c6069553cd50ee48fb4678340010a9b17c86a4fa602209f8              164 Release
+ ec5f3106d7674fddd482ea76a0d1e9421a08d01ab5eda0448df8c353e2c398f344f6d2caabac425f297576c28a989a51d6ad3ce4f2ee0af6391b1fd9b12965f8             5099 Packages
+ ee4fc0e416a2725e655ff147030bbf81bea68ce05c42d988d0f8bd0084b8ce81d0b307b2e070524fe446cfa8f4359e2218de3e28599f10ec96cd4bd428cc4f6a             1583 Packages.gz
+ a0245e4384226d18cdcfd2491ad984f62b8d609624d20fc96958b7c9991e435489143542a21f2945583580161aa2128a3ebb9326bf7eb0d575cfbb567f9614cd              164 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Translation-en

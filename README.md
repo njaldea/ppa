@@ -12,4 +12,4 @@ sudo apt update
 | nil-clix-dev      | [link](https://github.com/njaldea/nil-clix/tree/v1.0.2)             |
 | nil-service-dev   | [link](https://github.com/njaldea/nil-service/tree/v1.0.5)          |
 | nil-xit-dev       | [link](https://github.com/njaldea/nil-xit/tree/v0.3.5-doc)          |
-| nil-xit-test-dev  | [link](https://github.com/njaldea/nil-xit-test/tree/v0.0.13)        |
+| nil-xit-test-dev  | [link](https://github.com/njaldea/nil-xit-test/tree/v0.0.14)        |

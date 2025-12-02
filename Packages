@@ -129,3 +129,33 @@ Section: devel
 Priority: optional
 Description: Test layer to nil-xit
 
+Package: nil-xit-test-dev
+Version: 0.0.14
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 2084
+Depends: nil-clix-dev (>= 1.0.1), nil-xit-dev (>= 0.3.3), nil-gate-dev (>= 1.5.3), libgtest-dev (>=1.11.0)
+Filename: ./nil-xit-test-dev-0.0.14-Linux.deb
+Size: 1394148
+MD5sum: 9421904a55a6e7667172467028d4a9a9
+SHA1: 950b9d8d9d3270b8d9d80749290f34ad5291621a
+SHA256: 8fbee2ef96d270868e48e8be3ab777fe4b05c1ac564fa3e21fbd262468ed76d4
+Section: devel
+Priority: optional
+Description: Test layer to nil-xit
+
+Package: nil-xit-test-dev
+Version: 0.0.14
+Architecture: amd64
+Maintainer: Neil Aldea <njaldea@gmail.com>
+Installed-Size: 2084
+Depends: nil-clix-dev (>= 1.0.1), nil-xit-dev (>= 0.3.3), nil-gate-dev (>= 1.5.3), libgtest-dev (>=1.11.0)
+Filename: ./.build/nil-xit-test-dev-0.0.14-Linux.deb
+Size: 1394148
+MD5sum: 9421904a55a6e7667172467028d4a9a9
+SHA1: 950b9d8d9d3270b8d9d80749290f34ad5291621a
+SHA256: 8fbee2ef96d270868e48e8be3ab777fe4b05c1ac564fa3e21fbd262468ed76d4
+Section: devel
+Priority: optional
+Description: Test layer to nil-xit
+
