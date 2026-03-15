@@ -74,3 +74,11 @@ nil-xit-test provides CMake targets:
     )
     target_link_libraries(TARGET PUBLIC nil::xit-gtest)
 ```
+
+### some additional dependencies
+
+- [gtest](https://launchpad.net/ubuntu/+source/googletest)
+    - [googletest](https://launchpad.net/ubuntu/+archive/primary/+files/googletest_1.17.0-1_all.deb)
+    - [libgtest](https://launchpad.net/ubuntu/+archive/primary/+files/libgmock-dev_1.17.0-1_amd64.deb)
+- nlohmann-json
+    - `nlohmann-json3-dev`
