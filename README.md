@@ -79,6 +79,6 @@ nil-xit-test provides CMake targets:
 
 - [gtest](https://launchpad.net/ubuntu/+source/googletest)
     - [googletest](https://launchpad.net/ubuntu/+archive/primary/+files/googletest_1.17.0-1_all.deb)
-    - [libgtest](https://launchpad.net/ubuntu/+archive/primary/+files/libgmock-dev_1.17.0-1_amd64.deb)
+    - [libgtest](https://launchpad.net/ubuntu/+archive/primary/+files/libgtest-dev_1.17.0-1_amd64.deb)
 - nlohmann-json
     - `nlohmann-json3-dev`
