@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "checkJs": true,
+        "allowJs": true,
+		"module": "esnext",
+		"target": "esnext",
+        "paths": {
+            "$xit/*": [ "./gui/*" ],
+            "$base/*": [ "./gui/*" ],
+        },
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./global.d.ts",
+        "./gui/*.js",
+        "./gui/*.ts", 
+        "./gui/*.svelte"
+    ],
+}

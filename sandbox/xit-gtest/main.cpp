@@ -27,9 +27,9 @@ struct Plotly
 XIT_TEST_F(Plotly, demo, "$test/plotly/*")
 {
     const auto& [ranges, input_data] = xit_inputs;
-    //           ┃           ┃         ┗━━━ from Input<"slider_frame",
-    //           "input_frame"> ┃           ┗━━━ type == nlohmann::json ┗━━━ type
-    //           == Ranges
+    //           ┃           ┃         ┗━━━ from Input<"slider_frame", "input_frame">
+    //           ┃           ┗━━━ type == nlohmann::json
+    //           ┗━━━ type == Ranges
 
     auto& [view] = xit_outputs;
     //     ┃       ┗━━━ from Output<"plotly_frame">
@@ -62,8 +62,8 @@ XIT_TEST_F(DrawWithInput, demo, "$test/draw")
     //     ┗━━━ type == Circles
 
     // Assign data to output.
-    // This example is overly simplified where the input and output are of the
-    // same type and just copies them to the output directly.
+    // This example is overly simplified where the input and output are of the same type
+    // and just copies them to the output directly.
     draw = input_data;
 }
 

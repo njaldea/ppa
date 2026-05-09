@@ -7,8 +7,8 @@
 
     const { values } = xit();
 
-    const value_x = values.json("value-x", /** @type null | string[] */ (null), msgpack_codec);
-    const value_y = values.json("value-y", /** @type null | string[] */ (null), msgpack_codec);
+    const value_x = values("value-x", /** @type null | string[] */ (null), msgpack_codec);
+    const value_y = values("value-y", /** @type null | string[] */ (null), msgpack_codec);
 
     /** @type import("svelte/action").Action<HTMLDivElement, any[]> */
     const plot_it = (target, props) => {

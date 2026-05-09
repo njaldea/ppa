@@ -1,9 +1,12 @@
+#include <nil/clix/structs.hpp>
 #include <nil/service.hpp>
 
 #include <nil/clix.hpp>
 #include <nil/clix/prebuilt/Help.hpp>
 
 #include <iostream>
+#include <nil/service/ID.hpp>
+#include <nil/service/structs.hpp>
 #include <thread>
 
 void add_help(nil::clix::Node& node)
@@ -98,7 +101,7 @@ void loop(T& service, U& io)
 {
     while (true)
     {
-        std::thread t1([&]() { service.start(); });
+        std::thread t1([&]() { service.run(); });
         input_output(io);
         service.stop();
         t1.join();
@@ -109,14 +112,14 @@ void loop(T& service, U& io)
 template <typename T>
 void handlers(T& service)
 {
-    service.on_ready([](const auto& id) {                       //
-        std::cout << "local        : " << id.text << std::endl; //
+    service.on_ready([](const auto& id) {                             //
+        std::cout << "local        : " << to_string(id) << std::endl; //
     });
-    service.on_connect([](const nil::service::ID& id) {         //
-        std::cout << "connected    : " << id.text << std::endl; //
+    service.on_connect([](const nil::service::ID& id) {               //
+        std::cout << "connected    : " << to_string(id) << std::endl; //
     });
-    service.on_disconnect([](const nil::service::ID& id) {      //
-        std::cout << "disconnected : " << id.text << std::endl; //
+    service.on_disconnect([](const nil::service::ID& id) {            //
+        std::cout << "disconnected : " << to_string(id) << std::endl; //
     });
 }
 
@@ -134,7 +137,7 @@ int runner(const nil::clix::Options& options)
             0u,
             [](const auto& id, const std::string& m)
             {
-                std::cout << "from         : " << id.text << std::endl;
+                std::cout << "from         : " << to_string(id) << std::endl;
                 std::cout << "type         : " << 0 << std::endl;
                 std::cout << "message      : " << m << std::endl;
             }
@@ -144,7 +147,7 @@ int runner(const nil::clix::Options& options)
             [](const auto& id, const void* data, std::uint64_t size)
             {
                 const auto m = nil::service::consume<std::string>(data, size);
-                std::cout << "from         : " << id.text << std::endl;
+                std::cout << "from         : " << to_string(id) << std::endl;
                 std::cout << "type         : " << 1 << std::endl;
                 std::cout << "message      : " << m << std::endl;
             }
@@ -178,7 +181,7 @@ void sc_node(nil::clix::Node& node)
         });
 }
 
-nil::service::IService* add_web_service(nil::service::IWebService& server)
+nil::service::IEventService* add_web_service(nil::service::IWebService& server)
 {
     server.on_get(
         [](nil::service::WebTransaction& transaction)
@@ -216,13 +219,13 @@ nil::service::IService* add_web_service(nil::service::IWebService& server)
             return true;
         }
     );
-    server.on_ready([](const auto& id)                                        //
-                    { std::cout << "ready      : " << id.text << std::endl; } //
+    server.on_ready([](const auto& id)                                              //
+                    { std::cout << "ready      : " << to_string(id) << std::endl; } //
     );
     auto* ws = server.use_ws("/ws");
     ws->on_message(
-        [](const auto& id, const std::string& content)                                  //
-        { std::cout << "message    : " << id.text << "  :  " << content << std::endl; } //
+        [](const auto& id, const std::string& content)                                        //
+        { std::cout << "message    : " << to_string(id) << "  :  " << content << std::endl; } //
     );
     handlers(*ws);
     return ws;
@@ -250,7 +253,7 @@ void add_web_node(nil::clix::Node& node)
 
 int main(int argc, const char** argv)
 {
-    auto node = nil::clix::create_node();
+    auto node = nil::clix::make_node();
     add_help(node);
     use(node, nil::clix::prebuilt::Help(&std::cout));
     sub(node,

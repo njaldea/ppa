@@ -6,8 +6,8 @@
 
     const { values, signals } = xit();
 
-    const buf_value = values.json('value', /** @type any */ ({}), msgpack_codec);
-    const finalize = signals.none("finalize");
+    const buf_value = values('value', /** @type any */ ({}), msgpack_codec);
+    const finalize = signals("finalize");
 
     /** @type (target: HTMLDivElement) => { destroy: () => void }*/
     const json_editor = (target) => {

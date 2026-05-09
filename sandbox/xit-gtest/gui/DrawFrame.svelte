@@ -6,8 +6,8 @@
     const { values } = xit();
 
     /** @typedef {{ position: [number, number]; radius: number; }} Circle */
-    const value_x = values.json("value-x", /** @type Circle */ ({ position: [0, 0], radius: 1.0 }), msgpack_codec);
-    const value_y = values.json("value-y", /** @type Circle */ ({ position: [0, 0], radius: 1.0 }), msgpack_codec);
+    const value_x = values("value-x", /** @type Circle */ ({ position: [0, 0], radius: 1.0 }), msgpack_codec);
+    const value_y = values("value-y", /** @type Circle */ ({ position: [0, 0], radius: 1.0 }), msgpack_codec);
 </script>
 
 <div style:width=100% style:height=100%>

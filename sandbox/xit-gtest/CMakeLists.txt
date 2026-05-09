@@ -18,5 +18,4 @@ add_xit_test(
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE nil::xit-gtest)
-
-nil_install_targets(${PROJECT_NAME})
+target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json::nlohmann_json)

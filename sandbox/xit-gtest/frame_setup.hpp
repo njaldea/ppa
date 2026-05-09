@@ -11,7 +11,8 @@ using nil::xit::gtest::from_file;               // NOLINT(misc-unused-using-decl
 using nil::xit::gtest::from_file_with_finalize; // NOLINT(misc-unused-using-decls)
 using nil::xit::gtest::from_file_with_update;   // NOLINT(misc-unused-using-decls)
 
-XIT_FRAME_MAIN("@nil-/xit/test/Main.svelte");
+// XIT_FRAME_MAIN("@nil-/xit/test/Main.svelte");
+XIT_FRAME_MAIN("$base/Main.svelte");
 
 XIT_FRAME_TEST_INPUT_V(
     "json_input_frame",
@@ -32,6 +33,8 @@ XIT_FRAME_GLOBAL_INPUT_V(
 XIT_FRAME_OUTPUT_V("plotly_frame", "$base/PlotlyFrame.svelte", nlohmann::json)
     .value("value-x", from_json_ptr("/x"))
     .value("value-y", from_json_ptr("/y"));
+
+XIT_FRAME_TEST_V("circles_inputs_frame", "$base/InputFrame.svelte");
 
 XIT_FRAME_TEST_INPUT_V(
     "circles_input_frame",
