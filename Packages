@@ -28,16 +28,16 @@ Priority: optional
 Description: Tiny, header‑only, change‑driven DAG library (C++20) with C-API
 
 Package: nil-service-dev
-Version: 1.0.18
+Version: 1.0.19
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 39740
+Installed-Size: 39739
 Depends: nil-xalt-dev (>= 1.4.2)
-Filename: ./nil-service-dev-1.0.18-Linux.deb
-Size: 19264138
-MD5sum: 8a9c033b4877ba38c213b0cc305d44d9
-SHA1: f611c7a8f4c90a14571fa1dcc2fa68eca8dad654
-SHA256: 1a892dc9ba4671ac182c4645cf82aa8050d1f9e4bb1ad86df710433f120b963f
+Filename: ./nil-service-dev-1.0.19-Linux.deb
+Size: 19265980
+MD5sum: 06eed9f85c96956956b9ea5967b7fab2
+SHA1: 8ef28dc26b76e8e8b57d40bc9b9ac27add7b916a
+SHA256: 75c5798aecbb1d97e6eedfa70b25637dfee2e3919240b46fb9353469456384f3
 Section: devel
 Priority: optional
 Description: boost net library wrapper
@@ -72,16 +72,16 @@ Priority: optional
 Description: C++ bridge to frontend
 
 Package: nil-xit-test-dev
-Version: 0.0.20
+Version: 0.0.21
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
 Installed-Size: 2798
 Depends: nil-clix-dev (>= 1.0.10), nil-xit-dev (>= 0.3.11), nil-gate-dev (>= 1.6.8), libgtest-dev (>= 1.17.0)
-Filename: ./nil-xit-test-dev-0.0.20-Linux.deb
-Size: 1783732
-MD5sum: d83a88c6781591401e98b2f839c57346
-SHA1: 74f9d060dd4fda1be587e3e63ab5edad214fb653
-SHA256: 70d141afb5f6047d1631690640d767847bd94fb563d7fc15d5bcff48a2b4718d
+Filename: ./nil-xit-test-dev-0.0.21-Linux.deb
+Size: 1782926
+MD5sum: b24562bac268acbe8f72723345dd6546
+SHA1: 9fdff2f4ab1f9bc20874543f7431cfd80e95a0bc
+SHA256: 5a5617de92fc02510a600ad027cafb8b4bc8cbda0abfacc485179708408d2c76
 Section: devel
 Priority: optional
 Description: Test layer to nil-xit
