@@ -57,31 +57,31 @@ Priority: optional
 Description: collection of utility functionalities
 
 Package: nil-xit-dev
-Version: 0.3.22
+Version: 0.3.23
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 3223
+Installed-Size: 3473
 Depends: nil-service-dev (>= 1.0.20)
-Filename: ./nil-xit-dev-0.3.22-Linux.deb
-Size: 2043180
-MD5sum: 0e1ba4e22bb1088cbd6422b53b09f944
-SHA1: 49ea35d7f66339662c48eaa0ffeb3198e6f9c4bf
-SHA256: 46d37e7590ca4d649751bdcb556d12ad4393d88e7a04b0a60e8267696857c7b3
+Filename: ./nil-xit-dev-0.3.23-Linux.deb
+Size: 2247800
+MD5sum: ae20ddd92cb8e73ee515cb01dc73b299
+SHA1: 378c96bd0ce6ec72ec57b2a63af8a2372e7f993a
+SHA256: 89bc49c704061e319b81311d4d56fb80cb39e8fdcf374b442f30351addd2742e
 Section: devel
 Priority: optional
 Description: C++ bridge to frontend
 
 Package: nil-xit-test-dev
-Version: 0.0.26
+Version: 0.0.28
 Architecture: amd64
 Maintainer: Neil Aldea <njaldea@gmail.com>
-Installed-Size: 2767
-Depends: nil-clix-dev (>= 1.0.11), nil-xit-dev (>= 0.3.22), nil-gate-dev (>= 1.6.9), libgtest-dev (>= 1.17.0)
-Filename: ./nil-xit-test-dev-0.0.26-Linux.deb
-Size: 1758430
-MD5sum: 71a76450e390478fbffddbbc72615c9b
-SHA1: 867479b0c3c7501b4c10fc98fab452d9f7510024
-SHA256: 79897a1a5c4831974a80174d42138503128943ae8cc298e28c7158e6f113a389
+Installed-Size: 2756
+Depends: nil-clix-dev (>= 1.0.11), nil-xit-dev (>= 0.3.23), nil-gate-dev (>= 1.6.9), libgtest-dev (>= 1.17.0)
+Filename: ./nil-xit-test-dev-0.0.28-Linux.deb
+Size: 1857606
+MD5sum: c924268af6182f58e599342366440564
+SHA1: 181fb55578e53bace359d929436f851b6cbd3288
+SHA256: fc28a3b67cb35dec87e3416d4b767d13dc005172c5b8d9fbca0cd0d48d5d7296
 Section: devel
 Priority: optional
 Description: Test layer to nil-xit
